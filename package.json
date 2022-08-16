@@ -1,0 +1,31 @@
+{
+  "name": "vue-loader-component",
+  "version": "0.0.1",
+  "description": "Vue3 component to simplify building loading UI",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enkel-Digital/vue-loader-component.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue3",
+    "loader",
+    "loading",
+    "component"
+  ],
+  "author": "JJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enkel-Digital/vue-loader-component/issues"
+  },
+  "homepage": "https://github.com/Enkel-Digital/vue-loader-component#readme",
+  "devDependencies": {
+    "@vue/tsconfig": "^0.1.3",
+    "typescript": "^4.7.4",
+    "vue": "^3.2.37"
+  }
+}
