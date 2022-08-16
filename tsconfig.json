@@ -5,16 +5,7 @@
   "include": ["src/**/*", "src/**/*.vue"],
 
   "compilerOptions": {
-    "baseUrl": ".", // this must be specified if "paths" is specified.
-
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-
-      // Should target at least ES2017 to support `Object.values`
-      "ES2017"
-    ],
-
+    // Type checking configs
     "alwaysStrict": true,                             /* Ensure 'use strict' is always emitted. */
     "noUnusedLocals": true,                           /* Enable error reporting when a local variables aren't read. */
     "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read */
