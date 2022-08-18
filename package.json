@@ -2,8 +2,12 @@
   "name": "vue-loader-component",
   "version": "0.0.1",
   "description": "Vue3 component to simplify building loading UI",
-  "main": "./src/index.ts",
+  "main": "./src/dist/index.ts",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
+    "build": "npx vite build"
   },
   "repository": {
     "type": "git",
@@ -24,8 +28,11 @@
   },
   "homepage": "https://github.com/Enkel-Digital/vue-loader-component#readme",
   "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
     "@vue/tsconfig": "^0.1.3",
+    "rollup-plugin-typescript2": "^0.32.1",
     "typescript": "^4.7.4",
+    "vite": "^3.0.8",
     "vue": "^3.2.37"
   }
 }

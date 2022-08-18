@@ -5,6 +5,11 @@
   "include": ["src/**/*", "src/**/*.vue"],
 
   "compilerOptions": {
+    // Compiler output options to output all the things needed to help with development work
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
     // Type checking configs
     "alwaysStrict": true,                             /* Ensure 'use strict' is always emitted. */
     "noUnusedLocals": true,                           /* Enable error reporting when a local variables aren't read. */
