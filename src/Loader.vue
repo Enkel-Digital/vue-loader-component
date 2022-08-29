@@ -3,15 +3,6 @@
 // Using compiler macro to type check the default value too
 // Reference: https://vuejs.org/api/sfc-script-setup.html#default-props-values-when-using-type-declaration
 withDefaults(defineProps<{ show?: boolean }>(), { show: true });
-
-// Runtime defineProps alternative without type checking for default value
-// defineProps({
-//   show: {
-//     type: Boolean,
-//     required: false,
-//     default: true,
-//   },
-// });
 </script>
 
 <template>
