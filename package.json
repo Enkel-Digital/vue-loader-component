@@ -2,7 +2,8 @@
   "name": "vue-loader-component",
   "version": "0.0.1",
   "description": "Vue3 component to simplify building loading UI",
-  "main": "./src/dist/index.ts",
+  "main": "./dist/vue-loader-component.js",
+  "type": "module",
   "files": [
     "dist/"
   ],
