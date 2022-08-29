@@ -1,14 +1,11 @@
-import type { App } from "vue";
+/**
+ * Barrel file that re-exports all user accessible values
+ */
 
-import Loader from "./Loader.vue";
+// Export the GlobalInstaller, for user to install into their entire Vue app.
+export * from "./GlobalInstaller";
 
-export default {
-  install(app: App) {
-    app.component("Loader", Loader);
-  },
-};
-
-// Named export for users to import the component from this entry point file,
+// Named export for users to import the component from this entry point file directly,
 // So that they can explicitly define the component import when using inside their SFCs,
 // instead of injecting this as a global component available to the entire app.
-export { Loader };
+export * from "./FullscreenLoader.vue";
